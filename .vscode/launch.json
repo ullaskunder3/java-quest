@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Run Main Class",
+            "mainClass": "App",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "classPaths": [
+                "${workspaceFolder}/bin"
+            ],
+            "shortenCommandLine": "jarmanifest"
+        }
+    ]
+}
